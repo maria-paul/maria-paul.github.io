@@ -64,6 +64,11 @@
         rgba(0, 0, 0, var(--box-shadow-opacity));
 
 
+    // Media query variables
+    // CSS VARIABLES DONT WORK IN MEDIA QUERYS. 
+    // YOU COULD USE SASS VARIABLES.
+
+
 
     font-size: var(--font-size);
     font-family: var(--plain-font);
