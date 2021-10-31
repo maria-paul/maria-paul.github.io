@@ -12,3 +12,16 @@
         top:55%; 
     }
 }
+
+@media screen and (max-width: 600px) {
+    .footer{
+        // prevent copytight text from taking second line
+        font-size: 0.7rem;
+
+        p{
+            // push the copyright further down because the wave curve changes
+            position: absolute;
+            top:65%; 
+        }
+    }
+}
