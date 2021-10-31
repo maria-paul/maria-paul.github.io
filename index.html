@@ -4,7 +4,8 @@ layout: home
 
 <div class="centered-flex-container flex-column">
     <div class="content-wrapper">
-        <div class="centered-grid-container ">
+        <h2 class="accent-font uppercase text-center small-margin">Portfolio</h2>
+        <div class="centered-grid-container">
             {% for category in site.data.settings.portfolio-categories%}
                 <button class="portfolio-buttons">{{category}}</button>
             {% endfor %}
