@@ -8,3 +8,24 @@
 		margin: 0;
 	}
 }
+
+#welcome{
+    margin-left: 5rem; 
+    @media screen and (max-width: 600px){ 
+        margin-left:2.5rem; 
+    }
+}
+
+#to-my{
+    margin-right: 10rem; 
+    @media screen and (max-width: 600px){ 
+        margin-right:8rem; 
+    }
+}
+
+#world{
+    color:white; margin-left: 13rem; 
+    @media screen and (max-width: 600px){ 
+        margin-left:6rem; 
+    }
+}
