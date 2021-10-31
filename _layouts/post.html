@@ -1,55 +1,18 @@
 ---
 layout: default
 ---
-<!-- page title -->
-<section class="page-title bg-primary position-relative">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h1 class="text-white font-tertiary">Blogs</h1>
-      </div>
-    </div>
-  </div>
-  <!-- background shapes -->
-  <img src="{{ site.baseurl }}/assets/images/illustrations/page-title.png" alt="illustrations" class="bg-shape-1 w-100">
-  <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-pink-round.png" alt="illustrations" class="bg-shape-2">
-  <img src="{{ site.baseurl }}/assets/images/illustrations/dots-cyan.png" alt="illustrations" class="bg-shape-3">
-  <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-orange.png" alt="illustrations" class="bg-shape-4">
-  <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-yellow.png" alt="illustrations" class="bg-shape-5">
-  <img src="{{ site.baseurl }}/assets/images/illustrations/dots-group-cyan.png" alt="illustrations" class="bg-shape-6">
-  <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-cyan-lg.png" alt="illustrations" class="bg-shape-7">
-</section>
-<!-- /page title -->
 
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h3 class="font-tertiary mb-5">{{ page.title | escape }}</h3>
-        <p class="font-secondary">Published on {{ page.date | date: '%b %d, %Y' }} by <span class="text-primary">{{ page.author }}</span
-            class="text-primary"> on {% for tag in page.tags %}<span>{{ tag }} </span>{% endfor %}</p>
-        <div class="content">
-          <img src="{{page.image | relative_url }}" class="img-fluid rounded float-left mr-5 mb-4" alt="{{page.title}}">
-          {{ content }}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include bottom-wave.html %}
 
-{% if site.data.settings.disqus-identifier %} {% include disqus-comments.html %} {% endif %}
 
-<!-- blog -->
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">More Stories!</h2>
-      </div>
-      {% for post in site.posts offset:0 limit:3 %}
-      {% include post.html %}
-      {% endfor %}
+<div class="centered-flex-container flex-column">
+    <div class="content-wrapper-thin">
+        <h1 class="text-center hero-size accent-font">{{page.title}}</h1>
+        <p class="text-center">
+            {{ page.date | date_to_string }}
+            {{ site.author }}
+        </p>
+        <img class="text-center post-image" src="{{page.img}}" alt="main image">
+        {{content}}
     </div>
-  </div>
-</section>
-<!-- /blog -->
+</div>

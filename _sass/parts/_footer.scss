@@ -1,0 +1,14 @@
+.footer{
+    position: relative;
+    margin-top: auto;   // so that footer stickt on bottom!
+    
+    height: 100px;
+    width: 100%;
+
+
+    // To center the footer text in Y-axis.
+    p{
+        position: absolute;
+        top:55%; 
+    }
+}

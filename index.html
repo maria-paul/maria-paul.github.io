@@ -1,23 +1,30 @@
 ---
-layout: default
+layout: home
 ---
 
-{% include hero-section.html %}
+<div class="centered-flex-container flex-column">
+    <div class="content-wrapper">
+        <div class="centered-grid-container ">
+            {% for category in site.data.settings.portfolio-categories%}
+                <button class="portfolio-buttons">{{category}}</button>
+            {% endfor %}
+        </div>
+        <section class="centered-grid-container portfolio">
 
-{% include about-section.html %}
-
-{% include skills-section.html %}
-
-{% include experience-section.html %}
-
-{% include education-section.html %}
-
-{% include services-section.html %}
-
-{% include portfolio-section.html %}
-
-{% include testimonial-section.html %}
-
-{% include client-section.html %}
-
-{% include blog-section.html %}
+            {% for item in site.data.portfolio %}
+            <div 
+                class="card {% for size in item.size %} card-{{size}} {% endfor %}"
+                style="background-image:url('{{item.path}}')">
+                <div class="card-info">
+                    <p class="card-title">{{item.title}}</p>
+                    <!-- This bit messes up the centering of the text in the card for
+                         some reason. I will add it when I know how to fix the issue. -->
+                    <!-- {% if item.description %}
+                    <p class="card-description">{{item.description}}</p>
+                    {% endif %} -->
+                </div>
+            </div>
+            {% endfor %}
+        </section>
+    </div>
+</div>

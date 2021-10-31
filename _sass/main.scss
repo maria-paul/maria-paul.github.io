@@ -1,0 +1,95 @@
+@import "parts/base";
+
+.content-wrapper{
+    width: clamp(400px, 75%, 100rem);
+    align-content: center;
+
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.content-wrapper-thin{
+    width: clamp(400px, 40%, 80rem);
+    // width: clamp(45ch, 50%, 75ch);
+    align-content: center;
+
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+
+}
+
+// Use this class whenever you want to have a single something inside centered
+.centered-flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-grid-container{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap:1rem;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.hero-font{
+	font-family: var(--hero-font);
+}
+
+.hero-size{
+	font-size: 5rem;
+}
+
+.accent-font{
+    font-family: var(--accent-font);
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.bg-color{
+    background: var(--background-color);
+}
+
+.primary-color{
+    background: var(--primary-color);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.post-image{
+   object-fit: cover; 
+   
+   height:40rem; 
+   width:100%;
+}
+
+@import "parts/typography";
+@import "parts/portfolio";
+@import "parts/navbar";
+@import "parts/hero-section";
+@import "parts/footer";
+@import "parts/post-grid";
+@import "parts/waves";
+

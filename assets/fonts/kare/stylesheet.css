@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Kare';
+    src: url('Kare-Light.eot');
+    src: local('Kare Light'), local('Kare-Light'),
+        url('Kare-Light.eot?#iefix') format('embedded-opentype'),
+        url('Kare-Light.woff2') format('woff2'),
+        url('Kare-Light.woff') format('woff'),
+        url('Kare-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kare Shadow';
+    src: url('Kare-Shadow.eot');
+    src: local('Kare Shadow'), local('Kare-Shadow'),
+        url('Kare-Shadow.eot?#iefix') format('embedded-opentype'),
+        url('Kare-Shadow.woff2') format('woff2'),
+        url('Kare-Shadow.woff') format('woff'),
+        url('Kare-Shadow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kare';
+    src: url('Kare.eot');
+    src: local('Kare'),
+        url('Kare.eot?#iefix') format('embedded-opentype'),
+        url('Kare.woff2') format('woff2'),
+        url('Kare.woff') format('woff'),
+        url('Kare.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kare Gradient';
+    src: url('Kare-Gradient.eot');
+    src: local('Kare Gradient'), local('Kare-Gradient'),
+        url('Kare-Gradient.eot?#iefix') format('embedded-opentype'),
+        url('Kare-Gradient.woff2') format('woff2'),
+        url('Kare-Gradient.woff') format('woff'),
+        url('Kare-Gradient.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
