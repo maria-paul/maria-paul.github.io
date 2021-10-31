@@ -12,7 +12,7 @@
 #welcome{
     margin-left: 5rem; 
     @media screen and (max-width: 600px){ 
-        margin-left:2.5rem; 
+        margin-left:2rem; 
     }
 }
 
@@ -24,7 +24,8 @@
 }
 
 #world{
-    color:white; margin-left: 13rem; 
+    color:white; 
+    margin-left: 13rem; 
     @media screen and (max-width: 600px){ 
         margin-left:6rem; 
     }
