@@ -13,11 +13,11 @@ layout: home
         </div>
         <section class="centered-grid-container portfolio">
             <!-- Assign ID to each potfolio item to be able to select it in JavaScript -->
-            <!-- {% assign id = 0 %} -->
+            {% assign id = 0 %}
             {% for item in site.data.portfolio %}
-            <!-- {% assign id = id | plus:1 %} -->
+            {% assign id = id | plus:1 %}
             <div
-                id = "{{item.id}}" 
+                id = "{{id}}" 
                 class="card {% for size in item.size %} card-{{size}} {% endfor %}"
                 style="background-image:url('{{item.path}}')">
                 <div class="card-info">

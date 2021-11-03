@@ -2,68 +2,55 @@
   path: assets/img/portfolio/pongo.jpg 
   category: made from pixels
   size: []
-  id: 1
 
 - title: Unite
   path: assets/img/portfolio/unite.jpg 
   category: made from pixels
   size: [ tall, wide ]
   description: This is frankly the sexiest motorbike rider the world has ever seen. Nothing can match his elegance, style, or sheer alpha energy. It's insane.
-  id: 2
 
 - title: Multifaced
   path: assets/img/portfolio/multifaceted.jpg
   category: made from pixels
   size: []
-  id: 3
-
   
 - title: Catch it!
   path: assets/img/portfolio/catch_it.jpg
   category: made from jesmonite
   size: []
-  id: 4
 
 - title: Into the jungle
   path: /assets/img/portfolio/tigers.JPG
   category: made from paint
   size: [tall]
-  id: 5
 
 - title: Smart frog
   path: assets/img/portfolio/IMG_2434.PNG
   category: made from paint
   size: [tall, wide]
-  id: 6
 
 - title: Freedom
   path: assets/img/portfolio/freedom.png
   category: made from jesmonite
   size: [tall]
-  id: 7
 
 - title: Confusion
   path: assets/img/portfolio/invation.jpg
   category: made from paint
   size: [tall]
-  id: 8
 
 - title: Find your balance
   path: assets/img/portfolio/find-your-balance.jpg
   category: made from pixels
   size: []
-  id: 9
 
 - title: Self care
   path: assets/img/portfolio/self_care.png
   category: made from jesmonite
   size: []
-  id: 10
 
 - title: Eva
   path: assets/img/portfolio/eva.png
   category: made from pixels
   size: []
-  id: 11
-
 
