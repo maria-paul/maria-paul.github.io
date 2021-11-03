@@ -6,14 +6,18 @@ layout: home
     <div class="content-wrapper">
         <h2 class="accent-font uppercase text-center small-margin">Portfolio</h2>
         <div class="centered-grid-container">
+            <!-- Assign an ID to each button to be able to select it in JavaScript -->
             {% for category in site.data.settings.portfolio-categories%}
-                <button class="portfolio-buttons">{{category}}</button>
+                <button onclick="filterByCategory(this.id)" id="{{category}}" class="portfolio-buttons">{{category}}</button>
             {% endfor %}
         </div>
         <section class="centered-grid-container portfolio">
-
+            <!-- Assign ID to each potfolio item to be able to select it in JavaScript -->
+            <!-- {% assign id = 0 %} -->
             {% for item in site.data.portfolio %}
-            <div 
+            <!-- {% assign id = id | plus:1 %} -->
+            <div
+                id = "{{item.id}}" 
                 class="card {% for size in item.size %} card-{{size}} {% endfor %}"
                 style="background-image:url('{{item.path}}')">
                 <div class="card-info">
@@ -29,3 +33,4 @@ layout: home
         </section>
     </div>
 </div>
+

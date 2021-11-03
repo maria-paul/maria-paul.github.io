@@ -191,7 +191,8 @@ button{
 
 
     &:hover,
-    &:focus{
+    &:focus,
+    &:target{
         background: var(--accent-color);
 
 
