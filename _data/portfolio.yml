@@ -12,7 +12,7 @@
 - title: Multifaced
   path: assets/img/portfolio/multifaceted.jpg
   category: illustrations
-  size: []
+  size: [tall]
   
 - title: Catch it!
   path: assets/img/portfolio/catch_it.jpg
@@ -60,6 +60,6 @@
   size: []
 
 - title: Hands
-   path: assets/img/portfolio/digital-art/hands.jpg
-   category: digital art
-   size: []
+  path: assets/img/portfolio/digital-art/hands.jpg
+  category: digital art
+  size: []
