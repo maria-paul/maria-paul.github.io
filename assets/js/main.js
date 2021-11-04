@@ -3,7 +3,7 @@
 
 // Initialize all the portfolio items
 let items = {};
-{% assign id = 1 %}
+{% assign id = 0 %}
 {% for item in site.data.portfolio %}
     {% assign id = id | plus:1 %}
     items[{{id}}] = {{item.category | jsonify }} ;
