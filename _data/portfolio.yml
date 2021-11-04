@@ -1,56 +1,65 @@
 - title: Pongo
   path: assets/img/portfolio/pongo.jpg 
-  category: made from pixels
+  category: illustrations
   size: []
 
 - title: Unite
   path: assets/img/portfolio/unite.jpg 
-  category: made from pixels
+  category: illustrations
   size: [ tall, wide ]
   description: This is frankly the sexiest motorbike rider the world has ever seen. Nothing can match his elegance, style, or sheer alpha energy. It's insane.
 
 - title: Multifaced
   path: assets/img/portfolio/multifaceted.jpg
-  category: made from pixels
+  category: illustrations
   size: []
   
 - title: Catch it!
   path: assets/img/portfolio/catch_it.jpg
-  category: made from jesmonite
+  category: illustrations
   size: []
 
 - title: Into the jungle
   path: /assets/img/portfolio/tigers.JPG
-  category: made from paint
+  category: digital art
   size: [tall]
 
 - title: Smart frog
   path: assets/img/portfolio/IMG_2434.PNG
-  category: made from paint
+  category: illustrations
   size: [tall, wide]
 
 - title: Freedom
   path: assets/img/portfolio/freedom.png
-  category: made from jesmonite
+  category: illustrations
   size: [tall]
 
 - title: Confusion
   path: assets/img/portfolio/invation.jpg
-  category: made from paint
+  category: illustrations
   size: [tall]
 
 - title: Find your balance
   path: assets/img/portfolio/find-your-balance.jpg
-  category: made from pixels
+  category: illustrations
   size: []
 
 - title: Self care
   path: assets/img/portfolio/self_care.png
-  category: made from jesmonite
+  category: illustrations
   size: []
 
 - title: Eva
   path: assets/img/portfolio/eva.png
-  category: made from pixels
+  category: illustrations
   size: []
 
+- title: On the rocks
+  path: assets/img/portfolio/digital-art/whiskey.jpg
+  category: digital art
+  size: []
+
+- title: Hands
+   path: assets/img/portfolio/digital-art/hands.jpg
+   category: digital art
+   size: []
