@@ -19,20 +19,20 @@
   category: illustrations
   size: []
 
-- title: Into the jungle
-  path: /assets/img/portfolio/tigers.JPG
-  category: digital art
-  size: [tall]
-
 - title: Smart frog
   path: assets/img/portfolio/IMG_2434.PNG
   category: illustrations
-  size: [tall, wide]
+  size: []
+
+- title: Be prepared
+  path: assets/img/portfolio/woman.jpg
+  category: illustrations
+  size: [tall]
 
 - title: Freedom
   path: assets/img/portfolio/freedom.png
   category: illustrations
-  size: [tall]
+  size: [tall,wide]
 
 - title: Confusion
   path: assets/img/portfolio/invation.jpg
@@ -54,12 +54,48 @@
   category: illustrations
   size: []
 
+
+- title: Homesick
+  path: assets/img/portfolio/digital-art/homesick.jpg
+  category: digital art
+  size: [tall]
+
+- title: Genesis
+  path: assets/img/portfolio/digital-art/genesis.jpg
+  category: digital art
+  size: [wide,tall]
+
+- title: Frida
+  path: assets/img/portfolio/digital-art/frida.jpg
+  category: digital art
+  size: [tall]
+
 - title: On the rocks
   path: assets/img/portfolio/digital-art/whiskey.jpg
   category: digital art
-  size: []
+  size: [wide,tall]
 
-- title: Hands
-  path: assets/img/portfolio/digital-art/hands.jpg
+- title: Walchensee
+  path: assets/img/portfolio/digital-art/see.jpg
   category: digital art
-  size: []
+  size: [wide,tall]
+
+- title: Into the chain
+  path: assets/img/portfolio/digital-art/into_the_chain.jpg
+  category: digital art
+  size: [tall]
+
+- title: Smoke
+  path: assets/img/portfolio/digital-art/smoke.jpg
+  category: digital art
+  size: [tall]
+
+- title: Bite me
+  path: assets/img/portfolio/digital-art/kiss.jpg
+  category: digital art
+  size: [tall]
+
+- title: Striped order
+  path: /assets/img/portfolio/tigers.JPG
+  category: digital art
+  size: [tall]
