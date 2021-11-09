@@ -9,11 +9,11 @@
   size: [ tall, wide ]
   description: This is frankly the sexiest motorbike rider the world has ever seen. Nothing can match his elegance, style, or sheer alpha energy. It's insane.
 
-- title: Multifaced
-  path: assets/img/portfolio/multifaceted.jpg
+- title: Be prepared
+  path: assets/img/portfolio/woman.jpg
   category: illustrations
   size: [tall]
-  
+
 - title: Catch it!
   path: assets/img/portfolio/catch_it.jpg
   category: illustrations
@@ -24,8 +24,8 @@
   category: illustrations
   size: []
 
-- title: Be prepared
-  path: assets/img/portfolio/woman.jpg
+- title: Multifaced
+  path: assets/img/portfolio/multifaceted.jpg
   category: illustrations
   size: [tall]
 
