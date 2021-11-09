@@ -4,7 +4,7 @@ email: mariapaul@maria.com
 description: Hi hi hi 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-copyright: Copyright &copy; 2021 Designed by [Maria Paul](https://maria-paul.github.io/) & developed by [Intergalactic Mammoth](https://intergalactic-mammoth.github.io/)
+copyright: Copyright &copy; 2021. Designed by [Maria Paul](https://maria-paul.github.io/) & developed by [Intergalactic Mammoth](https://intergalactic-mammoth.github.io/).
 
 
 # Build settings
