@@ -1,5 +1,8 @@
 @import "parts/base";
 
+
+/* Positioning, layouts, centering etc */
+
 .content-wrapper{
     width: clamp(400px, 75%, 100rem);
     align-content: center;
@@ -30,7 +33,7 @@
     justify-content: center;
 
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap:1rem;
+    gap:1.25rem;
 }
 
 .flex-row{
@@ -40,6 +43,22 @@
 .flex-column{
     flex-direction: column;
 }
+
+.small-margin{
+    margin:1rem;
+}
+
+.pos-relative{
+    position: relative;
+}
+
+.pos-absolute{
+    position:absolute;
+}
+
+
+
+/* Font sizes, families and transforms */
 
 .hero-font{
 	font-family: var(--hero-font);
@@ -69,28 +88,52 @@
     text-transform: uppercase;
 }
 
-.bg-color{
-    background: var(--background-color);
-}
-
-.primary-color{
-    background: var(--primary-color);
-}
-
 .text-center{
     text-align: center;
 }
 
-.post-image{
-   object-fit: cover; 
-   
-   height:40rem; 
-   width:100%;
+
+
+/* Colors */
+
+.bg-color{
+    color: var(--background-color);
 }
 
-.small-margin{
-    margin:1rem;
+.bg-color-bg{
+    background-color: var(--background-color);
 }
+
+.primary-color{
+    color: var(--primary-color);
+}
+
+.primary-color-bg{
+    background-color: var(--primary-color);
+}
+
+.accent-color{
+    color: var(--accent-color);
+}
+
+.accent-color-bg{
+    background-color: var(--accent-color);
+}
+
+/* Others */
+
+.icons{
+    max-width: 2rem;
+    fill:var(--text-color);
+    transition: all var(--transition-normal) ease;
+
+    &:hover{
+        fill:var(--accent-color);
+        transform: scale(1.2);
+        transition: all var(--transition-fast) ease-in-out;
+    }
+}
+
 
 @import "parts/typography";
 @import "parts/portfolio";
@@ -99,4 +142,5 @@
 @import "parts/footer";
 @import "parts/post-grid";
 @import "parts/waves";
+@import "parts/post"
 
