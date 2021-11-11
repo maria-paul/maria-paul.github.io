@@ -90,12 +90,27 @@
   category: digital art
   size: [tall]
 
-- title: Bite me
-  path: assets/img/portfolio/digital-art/kiss.jpg
-  category: digital art
+- title: Spring's Rebirth
+  path: assets/img/portfolio/trad-art/girl-lay.jpg
+  category: traditional art
   size: [tall]
 
-- title: Striped order
-  path: /assets/img/portfolio/tigers.JPG
-  category: digital art
+- title: Immerse
+  path: assets/img/portfolio/trad-art/girl.jpg
+  category: traditional art
+  size: [tall]
+
+- title: Silent Strength
+  path: assets/img/portfolio/trad-art/tiger.jpg
+  category: traditional art
+  size: [tall]
+
+- title: Surrender
+  path: assets/img/portfolio/trad-art/girls.jpg
+  category: traditional art
+  size: [wide, tall]
+
+- title: Sunset
+  path: assets/img/portfolio/trad-art/sunset.jpeg
+  category: traditional art
   size: [tall]
