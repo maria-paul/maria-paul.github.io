@@ -16,21 +16,20 @@ layout: home
             {% assign id = 0 %}
             {% for item in site.data.portfolio %}
             {% assign id = id | plus:1 %}
-            <div
-                id = "{{id}}" 
-                class="card {% for size in item.size %} card-{{size}} {% endfor %}"
+            <a  href="{{item.path}}"
+                id = "{{id}}"
+                class="card {% for size in item.size %} card-{{size}} {% endfor %} glightbox"
                 style="background-image:url('{{item.path}}')">
-                <div class="card-info">
-                    <p class="card-title">{{item.title}}</p>
-                    <!-- This bit messes up the centering of the text in the card for
-                         some reason. I will add it when I know how to fix the issue. -->
-                    <!-- {% if item.description %}
-                    <p class="card-description">{{item.description}}</p>
-                    {% endif %} -->
+                <div>
+                    <div class="card-info">
+                        <p class="card-title">{{item.title}}</p>
+                        <!-- {% if item.description %}
+                        <p class="card-description">{{item.description}}</p>
+                        {% endif %} -->
+                    </div>
                 </div>
-            </div>
+            </a>
             {% endfor %}
         </section>
     </div>
 </div>
-

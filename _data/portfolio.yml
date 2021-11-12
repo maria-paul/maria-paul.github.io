@@ -126,11 +126,16 @@
   size: [tall]
 
 - title: Climate Change Infographic
-  path: assets/img/portfolio/client-work/Desktop - 2.png
+  path: assets/img/portfolio/client-work/climate-change.png
   category: client work
-  size: [tall, wide]
+  size: [wide]
  
 - title: Package Design
   path: assets/img/portfolio/client-work/cereals.jpg
+  category: client work
+  size: [tall, wide]
+
+- title: Product 3D Rendering
+  path: assets/img/portfolio/client-work/shark-blender.webp
   category: client work
   size: [tall, wide]
