@@ -114,3 +114,23 @@
   path: assets/img/portfolio/trad-art/sunset.jpeg
   category: traditional art
   size: [tall]
+
+- title: Kato Drys Annual Ball
+  path: assets/img/portfolio/client-work/annual_ball.png
+  category: client work
+  size: [tall]
+
+- title: Kato Drys Clean Day
+  path: assets/img/portfolio/client-work/kato_poster.png
+  category: client work
+  size: [tall]
+
+- title: Climate Change Infographic
+  path: assets/img/portfolio/client-work/Desktop - 2.png
+  category: client work
+  size: [tall, wide]
+ 
+- title: Package Design
+  path: assets/img/portfolio/client-work/cereals.jpg
+  category: client work
+  size: [tall, wide]
