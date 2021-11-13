@@ -1,59 +1,58 @@
 - title: Pongo
-  path: assets/img/portfolio/pongo.jpg 
+  path: assets/img/portfolio/illustrations/pongo.webp
   category: illustrations
   size: []
 
 - title: Unite
-  path: assets/img/portfolio/unite.jpg 
+  path: assets/img/portfolio/illustrations/unite.webp
   category: illustrations
   size: [ tall, wide ]
   description: This is frankly the sexiest motorbike rider the world has ever seen. Nothing can match his elegance, style, or sheer alpha energy. It's insane.
 
 - title: Be prepared
-  path: assets/img/portfolio/woman.jpg
+  path: assets/img/portfolio/illustrations/woman.webp
   category: illustrations
   size: [tall]
 
 - title: Catch it!
-  path: assets/img/portfolio/catch_it.jpg
+  path: assets/img/portfolio/illustrations/catch_it.webp
   category: illustrations
   size: []
 
 - title: Smart frog
-  path: assets/img/portfolio/IMG_2434.PNG
+  path: assets/img/portfolio/illustrations/frog.webp
   category: illustrations
   size: []
 
 - title: Multifaced
-  path: assets/img/portfolio/multifaceted.jpg
+  path: assets/img/portfolio/illustrations/multifaceted.webp
   category: illustrations
   size: [tall]
 
 - title: Freedom
-  path: assets/img/portfolio/freedom.png
+  path: assets/img/portfolio/illustrations/freedom.webp
   category: illustrations
   size: [tall,wide]
 
 - title: Confusion
-  path: assets/img/portfolio/invation.jpg
+  path: assets/img/portfolio/illustrations/invation.webp
   category: illustrations
   size: [tall]
 
 - title: Find your balance
-  path: assets/img/portfolio/find-your-balance.jpg
+  path: assets/img/portfolio/illustrations/find-your-balance.webp
   category: illustrations
   size: []
 
 - title: Self care
-  path: assets/img/portfolio/self_care.png
+  path: assets/img/portfolio/illustrations/self_care.webp
   category: illustrations
   size: []
 
 - title: Eva
-  path: assets/img/portfolio/eva.png
+  path: assets/img/portfolio/illustrations/eva.webp
   category: illustrations
   size: []
-
 
 - title: Homesick
   path: assets/img/portfolio/digital-art/homesick.jpg
@@ -116,22 +115,22 @@
   size: [tall]
 
 - title: Kato Drys Annual Ball
-  path: assets/img/portfolio/client-work/annual_ball.png
+  path: assets/img/portfolio/client-work/annual_ball.webp
   category: client work
   size: [tall]
 
 - title: Kato Drys Clean Day
-  path: assets/img/portfolio/client-work/kato_poster.png
+  path: assets/img/portfolio/client-work/kato_poster.webp
   category: client work
   size: [tall]
 
 - title: Climate Change Infographic
-  path: assets/img/portfolio/client-work/climate-change.png
+  path: assets/img/portfolio/client-work/climate-change.webp
   category: client work
   size: [tall, wide]
  
 - title: Package Design
-  path: assets/img/portfolio/client-work/cereals.jpg
+  path: assets/img/portfolio/client-work/cereals.webp
   category: client work
   size: [tall, wide]
 
