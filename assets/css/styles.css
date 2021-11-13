@@ -719,10 +719,12 @@ a[href^='#fnref:'] {
   border-radius: 10px;
 }
 
-* {
-  cursor: url("../img/design-elements/custom-cursor-32.png") 16 16, url("../img/design-elements/custom-cursor-16.png") 16 16, default;
+button,
+.custom-cursor {
+  cursor: url("../img/design-elements/custom-cursor-32.png") 16 16, url("../img/design-elements/custom-cursor-16.png") 8 8, default;
 }
 
-a {
-  cursor: url("../img/design-elements/custom-cursor-hover-32.png") 16 16, url("../img/design-elements/custom-cursor-hover-16.png") 16 16, default;
+a,
+.custom-cursor-hover {
+  cursor: url("../img/design-elements/custom-cursor-hover-32.png") 16 16, url("../img/design-elements/custom-cursor-hover-16.png") 8 8, default;
 }

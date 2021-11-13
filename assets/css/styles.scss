@@ -1,14 +1,15 @@
 @import "../../_sass/main.scss";
 
-* {
-    cursor: url('../img/design-elements/custom-cursor-32.png') 16 16,
-            url('../img/design-elements/custom-cursor-16.png') 16 16,
+button,
+.custom-cursor {
+    cursor: url('../img/design-elements/custom-cursor-32.png') 16 16,   // offset is 16 since cursor is 32
+            url('../img/design-elements/custom-cursor-16.png') 8 8,
             default;
 }
-  
+
 a,
-button {
-    cursor: url('../img/design-elements/custom-cursor-hover-32.png') 16 16 ,
-          url('../img/design-elements/custom-cursor-hover-16.png') 16 16 ,
+.custom-cursor-hover {
+    cursor: url('../img/design-elements/custom-cursor-hover-32.png') 16 16,
+          url('../img/design-elements/custom-cursor-hover-16.png') 8 8 ,
           default;
 }
