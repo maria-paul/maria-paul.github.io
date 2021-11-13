@@ -18,7 +18,7 @@ layout: home
             {% assign id = id | plus:1 %}
             <a  href="{{item.path}}"
                 id = "{{id}}"
-                class="card {% for size in item.size %} card-{{size}} {% endfor %} glightbox"
+                class="centered-flex-container card {% for size in item.size %} card-{{size}} {% endfor %} glightbox"
                 style="background-image:url('{{item.path}}')">
                 <div>
                     <div class="card-info">
