@@ -44,6 +44,8 @@
         rgba(0, 0, 0, var(--box-shadow-opacity));
   font-size: var(--font-size);
   font-family: var(--plain-font);
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
   scroll-behavior: smooth;
 }
 
@@ -139,7 +141,7 @@ button:hover, button:focus, button:target {
 
 /* Positioning, layouts, centering etc */
 .content-wrapper {
-  width: clamp(400px, 75%, 100rem);
+  width: clamp(360px, 75%, 100rem);
   -webkit-align-content: center;
       -ms-flex-line-pack: center;
           align-content: center;
@@ -148,7 +150,7 @@ button:hover, button:focus, button:target {
 }
 
 .content-wrapper-thin {
-  width: clamp(400px, 40%, 80rem);
+  width: clamp(360px, 40%, 80rem);
   -webkit-align-content: center;
       -ms-flex-line-pack: center;
           align-content: center;
@@ -166,6 +168,12 @@ button:hover, button:focus, button:target {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .centered-grid-container {
@@ -223,6 +231,8 @@ button:hover, button:focus, button:target {
 
 .accent-font {
   font-family: var(--accent-font);
+  line-height: 1.35em;
+  letter-spacing: 0.1em;
 }
 
 .bold {
@@ -691,9 +701,17 @@ a[href^='#fnref:'] {
   transition: all var(--transition-fast) ease-in-out;
 }
 
-.about-me {
+.about-me-grid {
+  margin: 1.5rem;
   -ms-grid-columns: (minmax(340px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+
+.about-me-grid2 {
+  margin: 1.5rem;
+  -ms-grid-columns: (minmax(340px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-auto-rows: minmax(300px, 100%);
 }
 
 .me-gif {
@@ -701,8 +719,7 @@ a[href^='#fnref:'] {
 }
 
 .fun-facts {
-  margin: 2em;
   padding: 1em;
-  background-color: #D7BCFD;
+  background-color: rgba(215, 188, 253, 0.75);
   border-radius: 10px;
 }

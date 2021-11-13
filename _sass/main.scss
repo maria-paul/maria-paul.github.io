@@ -4,7 +4,7 @@
 /* Positioning, layouts, centering etc */
 
 .content-wrapper{
-    width: clamp(400px, 75%, 100rem);
+    width: clamp(360px, 75%, 100rem);
     align-content: center;
 
     margin-top: 3.5rem;
@@ -12,7 +12,7 @@
 }
 
 .content-wrapper-thin{
-    width: clamp(400px, 40%, 80rem);
+    width: clamp(360px, 40%, 80rem);
     align-content: center;
 
     margin-top: 3.5rem;
@@ -25,6 +25,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.flex-container{
+    display: flex;
 }
 
 .centered-grid-container{
@@ -74,6 +78,8 @@
 
 .accent-font{
     font-family: var(--accent-font);
+    line-height: 1.35em;
+    letter-spacing: 0.1em;
 }
 
 .bold{

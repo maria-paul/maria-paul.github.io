@@ -12,11 +12,18 @@
     }
 }
 
-.about-me{
-    // margin: 2rem;
+.about-me-grid{
+    margin: 1.5rem;
 
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     // grid-auto-rows: 240px;
+}
+
+.about-me-grid2{
+    margin: 1.5rem;
+
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-auto-rows: minmax(300px, 100%);
 }
 
 .me-gif{
@@ -24,8 +31,8 @@
 }
 
 .fun-facts{
-    margin: 2em; 
     padding: 1em;  
-    background-color: #D7BCFD; 
+    background-color: rgba(215, 188, 253, 0.75);
+    // background-color: var(--accent-color); 
     border-radius: 10px;
 }
