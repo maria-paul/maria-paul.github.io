@@ -89,6 +89,11 @@
   category: digital art
   size: [tall]
 
+- title: Ellesmera
+  path: assets/img/portfolio/trad-art/ellesmera.jpg
+  category: traditional art
+  size: [wide, tall]
+
 - title: Spring's Rebirth
   path: assets/img/portfolio/trad-art/girl-lay.jpg
   category: traditional art
@@ -99,15 +104,15 @@
   category: traditional art
   size: []
 
-- title: Silent Strength
-  path: assets/img/portfolio/trad-art/tiger.jpg
-  category: traditional art
-  size: [tall]
-
 - title: Surrender
   path: assets/img/portfolio/trad-art/girls.jpg
   category: traditional art
   size: [wide, tall]
+
+- title: Silent Strength
+  path: assets/img/portfolio/trad-art/tiger.jpg
+  category: traditional art
+  size: [tall]
 
 - title: Sunset
   path: assets/img/portfolio/trad-art/sunset.jpeg
