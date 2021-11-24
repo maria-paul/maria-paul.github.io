@@ -160,6 +160,11 @@
   size: [tall, wide]
 
 - title: Product 3D Rendering
+  path: assets/img/portfolio/client-work/shark-blender.webp
+  category: client work
+  size: [tall, wide]
+  
+- title: Product 3D Rendering
   path: assets/img/portfolio/client-work/jesmonite.webp
   category: client work
   size: [tall, wide]
