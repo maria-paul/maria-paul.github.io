@@ -124,12 +124,12 @@
   category: client work
   size: [tall]
 
-- title: Clean Day Postrer
+- title: Clean Day Poster
   path: assets/img/portfolio/client-work/kato_poster.webp
   category: client work
   size: [tall]
 
-- title: Climate Change Infographic
+- title: Infographic
   path: assets/img/portfolio/client-work/climate-change.webp
   category: client work
   size: [tall, wide]
@@ -139,27 +139,32 @@
   category: client work
   size: []
 
-- title: Yellow Sub Logo
+- title: Sticker Design
   path: assets/img/portfolio/client-work/yellow-sub.webp
   category: client work
   size: []
 
-- title: Sustainably. Logo
+- title: Web App Logo
   path: assets/img/portfolio/client-work/sustainably.webp
   category: client work
   size: []
 
-- title: Sauer Logo
+- title: Restaurant Logo
   path: assets/img/portfolio/client-work/sauer.jpg
   category: client work
   size: []
 
-- title: Product 3D Rendering
-  path: assets/img/portfolio/client-work/shark-blender.webp
+- title: DNA 3D Rendering
+  path: assets/img/portfolio/client-work/DNA.webp
   category: client work
   size: [tall, wide]
 
 - title: Product 3D Rendering
   path: assets/img/portfolio/client-work/jesmonite.webp
+  category: client work
+  size: [tall, wide]
+
+- title: Product 3D Rendering
+  path: assets/img/portfolio/client-work/shark-blender.webp
   category: client work
   size: [tall, wide]
