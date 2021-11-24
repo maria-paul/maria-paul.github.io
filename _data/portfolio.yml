@@ -119,15 +119,7 @@
   category: traditional art
   size: [tall]
 
-- title: Annual Ball Poster
-  path: assets/img/portfolio/client-work/annual_ball.webp
-  category: client work
-  size: [tall]
 
-- title: Clean Day Poster
-  path: assets/img/portfolio/client-work/kato_poster.webp
-  category: client work
-  size: [tall]
 
 - title: Infographic
   path: assets/img/portfolio/client-work/climate-change.webp
@@ -160,12 +152,21 @@
   size: [tall, wide]
 
 - title: Product 3D Rendering
-  path: assets/img/portfolio/client-work/shark-blender.webp
-  category: client work
-  size: [tall, wide]
-  
-- title: Product 3D Rendering
   path: assets/img/portfolio/client-work/jesmonite.webp
   category: client work
   size: [tall, wide]
 
+- title: Product 3D Rendering
+  path: assets/img/portfolio/client-work/shark-blender.webp
+  category: client work
+  size: [tall, wide]
+
+- title: Annual Ball Poster
+  path: assets/img/portfolio/client-work/annual_ball.webp
+  category: client work
+  size: [tall]
+
+- title: Clean Day Poster
+  path: assets/img/portfolio/client-work/kato_poster.webp
+  category: client work
+  size: [tall]
