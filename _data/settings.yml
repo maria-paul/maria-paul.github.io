@@ -1,7 +1,7 @@
 portfolio-categories:
-  - illustrations
-  - digital art
   - traditional art
+  - digital art
+  - illustrations
   - client work
 
-preselect: illustrations
+preselect: traditional art
