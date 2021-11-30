@@ -119,7 +119,10 @@
   category: traditional art
   size: [tall]
 
-
+- title: Branding
+  path: assets/img/portfolio/client-work/florist_shop.jpg
+  category: client work
+  size: [tall, wide]
 
 - title: Infographic
   path: assets/img/portfolio/client-work/climate-change.webp
