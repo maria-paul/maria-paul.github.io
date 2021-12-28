@@ -1,3 +1,28 @@
+- title: Morning stretch
+  path: assets/img/portfolio/illustrations/morning-stretch.webp
+  category: illustrations
+  size: [wide, tall]
+
+- title: Smart frog
+  path: assets/img/portfolio/illustrations/frog.webp
+  category: illustrations
+  size: []
+
+- title: Self care
+  path: assets/img/portfolio/illustrations/self_care.webp
+  category: illustrations
+  size: []
+
+- title: Find your balance
+  path: assets/img/portfolio/illustrations/find-your-balance.webp
+  category: illustrations
+  size: []
+
+- title: Eva
+  path: assets/img/portfolio/illustrations/eva.webp
+  category: illustrations
+  size: []
+
 - title: Pongo
   path: assets/img/portfolio/illustrations/pongo.webp
   category: illustrations
@@ -19,11 +44,6 @@
   category: illustrations
   size: []
 
-- title: Smart frog
-  path: assets/img/portfolio/illustrations/frog.webp
-  category: illustrations
-  size: []
-
 - title: Multifaced
   path: assets/img/portfolio/illustrations/multifaceted.webp
   category: illustrations
@@ -38,21 +58,6 @@
   path: assets/img/portfolio/illustrations/invation.webp
   category: illustrations
   size: [tall]
-
-- title: Find your balance
-  path: assets/img/portfolio/illustrations/find-your-balance.webp
-  category: illustrations
-  size: []
-
-- title: Self care
-  path: assets/img/portfolio/illustrations/self_care.webp
-  category: illustrations
-  size: []
-
-- title: Eva
-  path: assets/img/portfolio/illustrations/eva.webp
-  category: illustrations
-  size: []
 
 - title: Homesick
   path: assets/img/portfolio/digital-art/homesick.jpg
