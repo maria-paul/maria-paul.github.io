@@ -617,6 +617,7 @@ a[href^='#fnref:'] {
 .post-card-img {
   height: 100%;
   width: 100%;
+  min-width: 200px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -626,6 +627,13 @@ a[href^='#fnref:'] {
 .post-card-text {
   height: 100%;
   width: 100%;
+}
+
+.read-more {
+  border-radius: 15px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: 0.5rem;
 }
 
 .wave-container {
