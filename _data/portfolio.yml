@@ -89,10 +89,10 @@
   category: digital art
   size: [tall]
 
-- title: Smoke
-  path: assets/img/portfolio/digital-art/smoke.jpg
-  category: digital art
-  size: [tall]
+#- title: Smoke
+#  path: assets/img/portfolio/digital-art/smoke.jpg
+#  category: digital art
+#  size: [tall]
 
 - title: Ellesméra
   path: assets/img/portfolio/trad-art/ellesmera.jpg
@@ -114,11 +114,6 @@
   category: traditional art
   size: [wide, tall]
 
-- title: Silent Strength
-  path: assets/img/portfolio/trad-art/tiger.jpg
-  category: traditional art
-  size: [tall]
-
 - title: Sunset
   path: assets/img/portfolio/trad-art/sunset.jpeg
   category: traditional art
@@ -130,7 +125,7 @@
   size: [tall, wide]
 
 - title: Infographic
-  path: assets/img/portfolio/client-work/climate-change.webp
+  path: assets/img/portfolio/client-work/climate-change.PNG
   category: client work
   size: [tall, wide]
  
@@ -139,25 +134,25 @@
   category: client work
   size: []
 
-- title: Sticker Design
-  path: assets/img/portfolio/client-work/yellow-sub.webp
-  category: client work
-  size: []
+#- title: Sticker Design
+#  path: assets/img/portfolio/client-work/yellow-sub.webp
+#  category: client work
+#  size: []
 
 - title: Web App Logo
   path: assets/img/portfolio/client-work/sustainably.webp
   category: client work
   size: []
 
-- title: Restaurant Logo
-  path: assets/img/portfolio/client-work/sauer.jpg
-  category: client work
-  size: []
+#- title: Restaurant Logo
+#  path: assets/img/portfolio/client-work/sauer.jpg
+#  category: client work
+#  size: []
 
-- title: DNA 3D Rendering
-  path: assets/img/portfolio/client-work/DNA.webp
-  category: client work
-  size: [tall, wide]
+#- title: DNA 3D Rendering
+#  path: assets/img/portfolio/client-work/DNA.webp
+#  category: client work
+#  size: [tall, wide]
 
 - title: Product 3D Rendering
   path: assets/img/portfolio/client-work/jesmonite.webp
@@ -169,10 +164,10 @@
   category: client work
   size: [tall, wide]
 
-- title: Product 3D Rendering
-  path: assets/img/portfolio/client-work/shark-blender.webp
-  category: client work
-  size: [tall, wide]
+#- title: Product 3D Rendering
+#  path: assets/img/portfolio/client-work/shark-blender.webp
+#  category: client work
+#  size: [tall, wide]
 
 - title: Annual Ball Poster
   path: assets/img/portfolio/client-work/annual_ball.webp
