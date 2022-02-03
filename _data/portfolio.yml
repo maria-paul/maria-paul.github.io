@@ -13,8 +13,8 @@
   category: illustrations
   size: []
 
-- title: Find your balance
-  path: assets/img/portfolio/illustrations/find-your-balance.webp
+- title: Fairygarden
+  path: assets/img/portfolio/illustrations/fairy.JPG
   category: illustrations
   size: []
 
@@ -37,15 +37,20 @@
 - title: Be prepared
   path: assets/img/portfolio/illustrations/woman.webp
   category: illustrations
-  size: [tall]
+  size: []
 
 - title: Catch it!
   path: assets/img/portfolio/illustrations/catch_it.webp
   category: illustrations
   size: []
 
-- title: Multifaced
-  path: assets/img/portfolio/illustrations/multifaceted.webp
+- title: Find your balance
+  path: assets/img/portfolio/illustrations/find-your-balance.webp
+  category: illustrations
+  size: []
+
+- title: Confusion
+  path: assets/img/portfolio/illustrations/invation.webp
   category: illustrations
   size: [tall]
 
@@ -54,11 +59,11 @@
   category: illustrations
   size: [tall,wide]
 
-- title: Confusion
-  path: assets/img/portfolio/illustrations/invation.webp
+- title: Multifaced
+  path: assets/img/portfolio/illustrations/multifaceted.webp
   category: illustrations
   size: [tall]
-
+  
 - title: Homesick
   path: assets/img/portfolio/digital-art/homesick.jpg
   category: digital art
@@ -104,15 +109,13 @@
   category: traditional art
   size: [wide, tall]
 
-
-
 - title: Sunset
   path: assets/img/portfolio/trad-art/sunset.jpeg
   category: traditional art
   size: [tall]
 
 - title: Grace
-  path: assets/img/portfolio/trad-art/grace.jpg
+  path: assets/img/portfolio/trad-art/Grace.jpg
   category: traditional art
   size: [tall, wide]
 
