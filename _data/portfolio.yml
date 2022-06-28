@@ -3,6 +3,11 @@
   category: illustrations
   size: [wide, tall]
 
+- title: I need space
+  path: assets/img/portfolio/illustrations/keyboard.png
+  category: illustrations
+  size: []
+
 - title: Smart frog
   path: assets/img/portfolio/illustrations/frog.webp
   category: illustrations
